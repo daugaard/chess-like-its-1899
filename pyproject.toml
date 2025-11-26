@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "chess-like-its-1899"
+version = "0.1.0"
+description = ""
+authors = ["Søren Blond Daugaard <soren@practicalai.io>"]
+readme = "README.md"
+packages = [{include = "chess_like_its_1899"}]
+
+[tool.poetry.dependencies]
+python = "3.14"
+chess = "^1.11.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
